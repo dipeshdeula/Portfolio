@@ -1,0 +1,141 @@
+@media(max-width:1199.5px)
+{
+    /*Custom css */
+    h1{
+        font-size: 3.75rem;
+
+    }
+    h2{
+        font-size: 2.1875rem;
+    }
+    h3{
+        font-size:1.875rem;
+        line-height: 2.6875rem;
+    }
+    h5{
+        font-size:1.0625rem;
+    }
+
+}
+
+@media(max-width:991px)
+{
+    /*Navbar */
+    .header-scrolled{
+        height: auto;
+    }
+
+    .header_wrapper .navbar-collapse{
+        margin-top:-0.125rem;
+    }
+    .header_wrapper .menu-navbar-nav{
+        text-align: center;
+       
+        padding-bottom: 0.9375rem;
+    }
+    .header_wrapper .nav-item .nav-link{
+        margin-top:0.9375rem;
+
+    }
+
+    /*contact card-group section */
+    .contact .card-group{
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: 90%;
+        max-width: 600px;
+        margin:auto;
+        
+    }
+
+    .card-group h2{
+        font-size: 1.575rem;
+    }
+
+}
+
+@media (max-width:767px){
+    /*custom css */
+    h1{
+        font-size:2.5rem;
+        line-height: 3rem;
+    }
+    h2{
+        font-size:1.875rem;
+        line-height: 2.375rem;
+    }
+    h3{
+        font-size: 1.5625rem;
+        line-height: 2.1875rem;
+    }
+
+    /* animate herosection text */
+    h5{
+        font-size: 1rem;
+    }
+
+    /* contact card-group */
+
+    .contact .card-group{
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 400px;
+      margin:auto;
+    }
+
+    .card-group h2{
+        font-size: 1.675rem;
+        text-align: center;
+       
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .card-body {
+        padding:1rem;
+    }
+     .card-body img{
+        width: 275px;
+        height: auto;
+        margin-bottom: 0.95rem;
+    }
+    .card-footer{
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+    /* video resopnsive */
+    .embed-responsive{
+        position:relative;
+        display: block;
+        width:100%;
+        padding:0;
+        overflow: hidden;
+    }
+
+    .embed-responsive::before{
+        content:"";
+        display: block;
+        padding-top:56.25%; /* 16:9 aspect ratio*/
+    }
+
+    .embed-responsive .embed-responsive-item,
+    .embed-responsive iframe,
+    .embed-responsive embed,
+    .embed-responsive object,
+    .embed-responsive video{
+        position: absolute;
+        top:0;
+        bottom:0;
+        left:0;
+        width:100%;
+        height: 100%;
+        border:0;
+    }
+
+    
+}
